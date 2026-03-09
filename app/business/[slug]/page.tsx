@@ -21,7 +21,7 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
   const business = businesses.find((b) => b.slug === slug);
   if (!business) notFound();
 
-  const { name, tagline, description, category, phone, email, address, hours, heroColor, accentColor, services, testimonials, features } = business;
+  const { name, tagline, description, category, phone, email, address, hours, heroColor, accentColor, services, testimonials, features, heroImage, about, stats } = business;
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
@@ -69,6 +69,19 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
         </div>
       </section>
 
+      {/* Hero Photo */}
+      {heroImage && (
+        <section className="max-w-5xl mx-auto px-6 py-8">
+          <div className="rounded-3xl overflow-hidden shadow-2xl" style={{ height: "420px" }}>
+            <img
+              src={heroImage}
+              alt={`${name} — ${category} in Santa Barbara`}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </section>
+      )}
+
       {/* Info bar */}
       <section className="bg-gray-50 border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-6 py-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center sm:text-left">
@@ -86,6 +99,28 @@ export default async function BusinessPage({ params }: { params: Promise<{ slug:
           </div>
         </div>
       </section>
+
+      {/* About */}
+      {about && (
+        <section className="max-w-4xl mx-auto px-6 py-16">
+          <h2 className="text-2xl font-bold mb-5" style={{ color: heroColor }}>Our Story</h2>
+          <p className="text-gray-600 text-lg leading-relaxed">{about}</p>
+        </section>
+      )}
+
+      {/* Stats */}
+      {stats && stats.length > 0 && (
+        <section className="py-12 px-6" style={{ backgroundColor: heroColor }}>
+          <div className="max-w-4xl mx-auto grid grid-cols-3 gap-8 text-center text-white">
+            {stats.map((stat) => (
+              <div key={stat.label}>
+                <p className="text-4xl font-extrabold mb-1">{stat.value}</p>
+                <p className="text-sm uppercase tracking-widest opacity-70">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Features */}
       <section className="max-w-6xl mx-auto px-6 py-16">

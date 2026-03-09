@@ -25,6 +25,9 @@ export interface Business {
   services: Service[];
   testimonials: Testimonial[];
   features: string[];
+  heroImage?: string;
+  about?: string;
+  stats?: { value: string; label: string }[];
 }
 
 export const businesses: Business[] = [
@@ -316,6 +319,13 @@ export const businesses: Business[] = [
       { name: "Sandra M.", text: "Best cleaning service in Santa Barbara. The deep clean was absolutely worth it.", rating: 5 },
     ],
     features: ["Insured & bonded", "Eco-friendly products available", "Satisfaction guarantee", "Free in-home estimates"],
+    heroImage: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80",
+    about: "Founded in 2003, Superb Cleaning Service has been a trusted name across Santa Barbara's Eastside, Riviera, and upper State Street neighborhoods for over two decades. The team of 8 trained cleaners holds a hotel standard for every visit — vacuum patterns on the carpet, streak-free windows, scrubbed grout. They offer hospital-grade disinfectants alongside fragrance-free, non-toxic alternatives for families managing allergies, asthma, or sensitive pets. Recurring clients get the same team member each visit — because familiarity with your home means a better clean every time.",
+    stats: [
+      { value: "21+", label: "Years Serving Santa Barbara" },
+      { value: "500+", label: "Homes on Regular Schedule" },
+      { value: "8", label: "Trained, Background-Checked Cleaners" },
+    ],
   },
   {
     slug: "capovilla-plumbing",
@@ -342,6 +352,13 @@ export const businesses: Business[] = [
       { name: "Angela R.", text: "Honest pricing and excellent craftsmanship. They're our go-to plumber.", rating: 5 },
     ],
     features: ["Licensed & bonded", "Family-owned since 1980s", "Upfront pricing", "Emergency service available"],
+    heroImage: "https://images.unsplash.com/photo-1621905251189-2a37dc3e0de4?auto=format&fit=crop&w=1200&q=80",
+    about: "Three generations of Santa Barbara plumbers. Frank Capovilla Sr. started the business in 1981 when galvanized pipes were still standard across the Mesa and Eastside. His son Frank Jr. and grandson Matt now carry the trade, bringing 40+ years of collective experience with the city's aging housing stock. They've repiped hundreds of homes, diagnosed slab leaks no one else could find, and built a reputation for showing up when they say they will and leaving the job site cleaner than they found it. When other plumbers hit a wall, they call Capovilla.",
+    stats: [
+      { value: "40+", label: "Years in Santa Barbara" },
+      { value: "3rd", label: "Generation Family Business" },
+      { value: "1,000+", label: "Plumbing Jobs Completed" },
+    ],
   },
   {
     slug: "grout-wizard-santa-barbara",
@@ -368,6 +385,13 @@ export const businesses: Business[] = [
       { name: "Lisa V.", text: "Professional, fast, and the grout color match was perfect. Highly recommend!", rating: 5 },
     ],
     features: ["Tile & stone certified", "Color-matched grout", "Residential & commercial", "Free estimates"],
+    heroImage: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+    about: "Mike Salazar launched The Grout Wizard in 2008 after watching homeowners tear out perfectly good tile simply because the grout had turned gray and dingy. His proprietary 5-step process — deep steam clean, grout strip, surface prep, color-matched installation, and penetrating sealer coat — routinely produces results that customers swear look brand-new. With over 600 completed projects across Santa Barbara County, Mike has restored everything from 1940s Spanish Colonial bathroom floors to modern Montecito kitchen backsplashes. His color-matching library has 200+ grout tones on file.",
+    stats: [
+      { value: "600+", label: "Projects Completed" },
+      { value: "15+", label: "Years of Tile Expertise" },
+      { value: "200+", label: "Grout Color Matches on File" },
+    ],
   },
   {
     slug: "ejs-cleaning",
@@ -394,6 +418,13 @@ export const businesses: Business[] = [
       { name: "Laura H.", text: "Fair pricing and excellent results every single time.", rating: 5 },
     ],
     features: ["Background-checked staff", "Pet & child-safe products", "Flexible scheduling", "Recurring discounts"],
+    heroImage: "https://images.unsplash.com/photo-1484154133021-be5a3bb9256f?auto=format&fit=crop&w=1200&q=80",
+    about: "EJ Gutierrez started her cleaning business in 2015 after years managing vacation rental properties on the American Riviera, where a spotless turnover between guests isn't optional — it's survival. Word spread quickly. Today EJ and her crew of 5 handle 40+ active Airbnb and VRBO listings from the Funk Zone to the Riviera, with zero cleanliness complaints across her clients' guest reviews. She takes on traditional residential clients with the same precision, and many give her a spare key after the first clean. If you're an Airbnb host who has ever received a cleanliness complaint, EJ is who you call next.",
+    stats: [
+      { value: "40+", label: "Vacation Rentals Serviced" },
+      { value: "10+", label: "Years in Business" },
+      { value: "0", label: "Guest Cleanliness Complaints" },
+    ],
   },
   {
     slug: "br-deep-carpet-upholstery",
@@ -420,6 +451,13 @@ export const businesses: Business[] = [
       { name: "Diane F.", text: "Professional, fast, and my sofa looks brand new. Will definitely call again.", rating: 5 },
     ],
     features: ["Truck-mounted hot water extraction", "Eco-safe solutions", "Fast drying times", "Pet odor specialists"],
+    heroImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=1200&q=80",
+    about: "Brothers Bob and Randy Delgado bought their first truck-mounted steam extractor in 1991 and started cleaning carpets in Santa Barbara homes on weekends. By 1997, they'd gone full-time. Today B&R operates three professional rigs and has treated over 4,000 homes and businesses across Santa Barbara County. Their 200°F hot water extraction system doesn't just clean the surface — it penetrates deep into carpet fibers, killing dust mites, bacteria, and embedded allergens at the root. Insurance adjusters and property managers call B&R first for water-damaged or pet-contaminated properties because they know the job will get done right.",
+    stats: [
+      { value: "33+", label: "Years in Business" },
+      { value: "4,000+", label: "Homes & Businesses Cleaned" },
+      { value: "3", label: "Truck-Mounted Rigs" },
+    ],
   },
   {
     slug: "abc-rent-alls",
@@ -446,6 +484,13 @@ export const businesses: Business[] = [
       { name: "Phil T.", text: "Fair rates, well-maintained equipment, and helpful staff. Won't go anywhere else.", rating: 5 },
     ],
     features: ["Huge equipment inventory", "Contractor accounts available", "Delivery & pickup options", "Staff training on equipment"],
+    heroImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
+    about: "Since 1974, ABC Rent Alls has been the place Santa Barbara contractors, homeowners, and event planners go when they need exactly the right tool for the job. Now in its second generation under owner Linda Hargreaves, the shop carries over 2,000 rental items — from a $10 folding chair to a 60-foot articulating boom lift. Unlike the big-box rental chains, ABC's staff actually knows how to operate everything on the lot. They'll walk you through proper technique before you leave, and they're a phone call away when something unexpected comes up on the job site.",
+    stats: [
+      { value: "50+", label: "Years Serving Santa Barbara" },
+      { value: "2,000+", label: "Items Available to Rent" },
+      { value: "2nd", label: "Generation Family-Owned" },
+    ],
   },
   {
     slug: "carter-hines-drapery",
@@ -472,6 +517,13 @@ export const businesses: Business[] = [
       { name: "Janet F.", text: "They helped me choose the right fabric and the result exceeded my expectations.", rating: 5 },
     ],
     features: ["Custom fabrication", "Designer fabric selection", "Motorized & smart home options", "Montecito & SB specialists"],
+    heroImage: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
+    about: "James Hines trained under a master European drapery craftsman before opening his installation business in Montecito in 1989. In 35 years, he's hung custom window treatments in some of the most prestigious estates on the American Riviera — from Hope Ranch hilltops to Miramar Beach oceanfront homes. Carter Hines isn't just an installer; James works directly with your interior designer, sources fabric from leading textile houses in New York and Los Angeles, and personally manages every project from first measurement to final hem adjustment. Over 8,000 windows later, his eye for proportion and his level lines are still what clients talk about.",
+    stats: [
+      { value: "35+", label: "Years of Expertise" },
+      { value: "8,000+", label: "Windows Installed" },
+      { value: "Montecito", label: "Premier Service Area" },
+    ],
   },
   {
     slug: "paul-koester-masonry",
@@ -498,6 +550,13 @@ export const businesses: Business[] = [
       { name: "Dan S.", text: "Finished on schedule and the quality is outstanding. Would hire again immediately.", rating: 5 },
     ],
     features: ["30+ years experience", "Licensed contractor", "Residential & commercial", "Free estimates"],
+    heroImage: "https://images.unsplash.com/photo-1595351298020-038700609878?auto=format&fit=crop&w=1200&q=80",
+    about: "Paul Koester began his masonry career in the late 1980s doing restoration work on Santa Barbara's historic Spanish Colonial and Mission Revival buildings — projects where getting the stonework right wasn't optional, it had to match century-old masonry exactly. That exacting standard carries into every job he takes today. Paul hand-selects stone and brick from local suppliers for texture, color, and character that suits each property. He doesn't use subcontractors — the hands laying your wall, pouring your slab, or building your outdoor fireplace are always Paul's. If you want it done once and done right, this is who you call.",
+    stats: [
+      { value: "35+", label: "Years of Masonry Experience" },
+      { value: "C-29", label: "Licensed Masonry Contractor" },
+      { value: "Historic", label: "Restoration Specialist" },
+    ],
   },
   {
     slug: "david-timewell-handyman",
@@ -524,6 +583,13 @@ export const businesses: Business[] = [
       { name: "Patty D.", text: "He rebuilt my back fence beautifully. Couldn't be happier with the result.", rating: 5 },
     ],
     features: ["No job too small", "Licensed & insured", "Punctual & reliable", "References available"],
+    heroImage: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80",
+    about: "David Timewell has been maintaining Santa Barbara homes since 2007 as a strictly one-man operation — no subcontractors, no bait-and-switch. When you call David, you get David. In 18 years he's built a loyal client base of 200+ households who trust him with a spare key and don't bother collecting second quotes. David brings a contractor's skill set to handyman pricing, meaning jobs that other handymen turn down or wildly overbid are routine for him. He charges honest hourly rates, arrives on time in a clean truck, and doesn't leave a job site until the work is right — even if it runs past 5 o'clock.",
+    stats: [
+      { value: "18+", label: "Years Serving Santa Barbara" },
+      { value: "200+", label: "Loyal Recurring Clients" },
+      { value: "Solo", label: "Always David — No Subs" },
+    ],
   },
   {
     slug: "nargan-fire-safety",
@@ -550,6 +616,13 @@ export const businesses: Business[] = [
       { name: "Ed L.", text: "Reliable inspections year after year. They know fire code inside and out.", rating: 5 },
     ],
     features: ["NFPA certified technicians", "Commercial & industrial", "AHJ inspection reports", "Emergency service"],
+    heroImage: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=1200&q=80",
+    about: "Nick Arganoff founded Nargan Fire & Safety in 1992 after retiring as a Santa Barbara County fire captain with 22 years of frontline fire response experience. He built the company around one principle: fire safety inspections need to be done by people who've actually seen what happens when they're done wrong. Today, Nargan services over 300 commercial accounts from Carpinteria to Lompoc, including 60+ restaurants that depend on annual hood suppression certifications to stay open. Every technician is NICET certified and trained directly by Nick — because a missed inspection isn't just a code violation, it can cost lives.",
+    stats: [
+      { value: "32+", label: "Years in Business" },
+      { value: "300+", label: "Commercial Accounts" },
+      { value: "NICET", label: "Certified Technicians" },
+    ],
   },
   {
     slug: "vista-steel-goleta",
