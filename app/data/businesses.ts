@@ -44,6 +44,7 @@ export const businesses: Business[] = [
     hours: "Mon–Thu 11am–9pm, Fri–Sat 11am–10pm, Sun 12pm–8pm",
     heroColor: "#b91c1c",
     accentColor: "#dc2626",
+    heroImage: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Dine-In", description: "Cozy atmosphere for families and date nights", price: "Entrées from $14" },
       { name: "Takeout", description: "Fresh meals ready in 20–30 minutes", price: "Full menu available" },
@@ -70,6 +71,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7:30am–5:30pm, Sat 8am–2pm",
     heroColor: "#1d4ed8",
     accentColor: "#2563eb",
+    heroImage: "https://images.unsplash.com/photo-1487754180451-c456951c0b86?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Oil Change", description: "Full synthetic, conventional, or high-mileage oil", price: "From $39.99" },
       { name: "Brake Service", description: "Pads, rotors, calipers, and fluid flush", price: "From $149" },
@@ -96,6 +98,7 @@ export const businesses: Business[] = [
     hours: "Mon–Thu 8am–5pm, Fri 8am–3pm",
     heroColor: "#0e7490",
     accentColor: "#0891b2",
+    heroImage: "https://images.unsplash.com/photo-1606811841689-23dfddce3e4d?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Teeth Cleaning", description: "Professional cleaning and oral exam", price: "From $89" },
       { name: "Teeth Whitening", description: "In-office Zoom whitening treatment", price: "From $299" },
@@ -122,6 +125,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 5am–10pm, Sat–Sun 6am–8pm",
     heroColor: "#15803d",
     accentColor: "#16a34a",
+    heroImage: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Personal Training", description: "1-on-1 sessions with certified trainers", price: "From $65/session" },
       { name: "Group Classes", description: "HIIT, yoga, spin, pilates, and more", price: "Included with membership" },
@@ -148,6 +152,7 @@ export const businesses: Business[] = [
     hours: "Tue–Sat 9am–7pm, Sun 10am–5pm",
     heroColor: "#7c3aed",
     accentColor: "#8b5cf6",
+    heroImage: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Haircut & Style", description: "Precision cuts for men, women, and kids", price: "From $45" },
       { name: "Color & Highlights", description: "Balayage, ombre, full color, and more", price: "From $95" },
@@ -174,6 +179,7 @@ export const businesses: Business[] = [
     hours: "Mon–Sat 7am–6pm",
     heroColor: "#166534",
     accentColor: "#15803d",
+    heroImage: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Lawn Maintenance", description: "Weekly mowing, edging, and cleanup", price: "From $45/visit" },
       { name: "Garden Design", description: "Custom landscape planning and planting", price: "From $500" },
@@ -200,6 +206,7 @@ export const businesses: Business[] = [
     hours: "24/7 Emergency Service Available",
     heroColor: "#0c4a6e",
     accentColor: "#0369a1",
+    heroImage: "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Emergency Repairs", description: "Burst pipes, major leaks, flooding", price: "Call for pricing" },
       { name: "Drain Cleaning", description: "Clog removal and hydro-jetting", price: "From $99" },
@@ -226,6 +233,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7am–6pm, Emergency service available",
     heroColor: "#854d0e",
     accentColor: "#ca8a04",
+    heroImage: "https://images.unsplash.com/photo-1518709414768-a88981a4515d?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Panel Upgrades", description: "200-amp service upgrades and subpanel installation", price: "From $1,200" },
       { name: "EV Charger Installation", description: "Level 2 home charging station setup", price: "From $499" },
@@ -252,6 +260,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 8am–6pm, Sat 8am–1pm",
     heroColor: "#be185d",
     accentColor: "#db2777",
+    heroImage: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Wellness Exams", description: "Annual checkups and vaccinations", price: "From $59" },
       { name: "Dental Cleanings", description: "Professional teeth cleaning under anesthesia", price: "From $299" },
@@ -278,6 +287,7 @@ export const businesses: Business[] = [
     hours: "Mon–Sat 9am–6pm",
     heroColor: "#c2410c",
     accentColor: "#ea580c",
+    heroImage: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Home Buying", description: "Expert guidance from search to closing", price: "No buyer fees" },
       { name: "Home Selling", description: "Staging, marketing, and negotiation", price: "Competitive commission" },
@@ -637,6 +647,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7am–4pm",
     heroColor: "#1e293b",
     accentColor: "#334155",
+    heroImage: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Structural Steel Supply", description: "Beams, columns, angles, and plates cut to spec", price: "Quote by project" },
       { name: "Custom Fabrication", description: "Welded and machined steel components to your drawings", price: "Quote by project" },
@@ -663,6 +674,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7am–5pm",
     heroColor: "#166534",
     accentColor: "#15803d",
+    heroImage: "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Commercial Maintenance", description: "Regular mowing, edging, pruning, and cleanup for commercial sites", price: "Monthly contract" },
       { name: "Irrigation Management", description: "System audits, repairs, and seasonal programming", price: "From $150/visit" },
@@ -689,6 +701,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7am–5pm, Emergency service available",
     heroColor: "#0c4a6e",
     accentColor: "#0369a1",
+    heroImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Drain Cleaning", description: "Clog removal for sinks, tubs, toilets, and mainlines", price: "From $89" },
       { name: "Faucet & Fixture Repair", description: "Leaky faucets, running toilets, and valve replacement", price: "From $99" },
@@ -715,6 +728,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7am–5pm, Emergency service available",
     heroColor: "#0c4a6e",
     accentColor: "#0369a1",
+    heroImage: "https://images.unsplash.com/photo-1620735065454-5c01a7c0da78?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Drain Cleaning", description: "Clog removal for sinks, tubs, toilets, and mainlines", price: "From $89" },
       { name: "Faucet & Fixture Repair", description: "Leaky faucets, running toilets, and valve replacement", price: "From $99" },
@@ -741,6 +755,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7:30am–5:30pm",
     heroColor: "#1d4ed8",
     accentColor: "#2563eb",
+    heroImage: "https://images.unsplash.com/photo-1617469767053-d3b523a0b982?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Oil & Filter Change", description: "Conventional, synthetic blend, or full synthetic", price: "From $45" },
       { name: "Brake Inspection & Repair", description: "Pads, rotors, drums, and brake fluid service", price: "From $150" },
@@ -767,6 +782,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 8am–5pm",
     heroColor: "#1e1b4b",
     accentColor: "#3730a3",
+    heroImage: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "BMW Service & Repair", description: "Factory-scheduled maintenance and full diagnostics", price: "From $120" },
       { name: "Mercedes-Benz Service", description: "A-service, B-service, and all mechanical repairs", price: "From $130" },
@@ -796,6 +812,7 @@ export const businesses: Business[] = [
     hours: "Mon–Sat 8am–5pm",
     heroColor: "#1d4ed8",
     accentColor: "#2563eb",
+    heroImage: "https://images.unsplash.com/photo-1596558450255-7c0d7afe5e1c?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Oil & Filter Service", description: "Full synthetic, conventional, or high-mileage — at your location", price: "From $55" },
       { name: "Battery Replacement", description: "On-site battery test and swap for most vehicles", price: "From $99" },
@@ -822,6 +839,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7:30am–5:30pm, Sat 8am–3pm",
     heroColor: "#065f46",
     accentColor: "#059669",
+    heroImage: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Diagnostic Scan", description: "Mobile OBD2 diagnostics for warning lights and codes", price: "From $65" },
       { name: "Tune-Up", description: "Spark plugs, air filter, and fuel system service", price: "From $120" },
@@ -848,6 +866,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 8am–5:30pm",
     heroColor: "#1e293b",
     accentColor: "#475569",
+    heroImage: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Full-Service Oil Change", description: "Oil, filter, and 27-point inspection every visit", price: "From $49" },
       { name: "Engine & Transmission", description: "Diagnosis, repair, and replacement for all drivetrain components", price: "Custom quote" },
@@ -874,6 +893,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 7:30am–5pm",
     heroColor: "#78350f",
     accentColor: "#92400e",
+    heroImage: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Lube, Oil & Filter", description: "Quick oil service with tire rotation and inspection", price: "From $44" },
       { name: "Brake Repair", description: "Pads, rotors, calipers, and brake fluid service", price: "From $145" },
@@ -900,6 +920,7 @@ export const businesses: Business[] = [
     hours: "Mon–Fri 8am–5pm",
     heroColor: "#7c3aed",
     accentColor: "#8b5cf6",
+    heroImage: "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Collision Repair", description: "Full structural and cosmetic repair after accidents", price: "Free estimate" },
       { name: "Paint Matching & Refinish", description: "Computer color matching and factory-quality finish", price: "From $299/panel" },
@@ -926,6 +947,7 @@ export const businesses: Business[] = [
     hours: "Mon–Sat 8am–5pm",
     heroColor: "#0f766e",
     accentColor: "#0d9488",
+    heroImage: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "On-Site Oil Change", description: "All oil types — at your home or office", price: "From $55" },
       { name: "Brake Pads & Rotors", description: "Mobile brake service for most vehicles", price: "From $165" },
@@ -955,6 +977,7 @@ export const businesses: Business[] = [
     hours: "Tue–Sun 10am–7pm",
     heroColor: "#4c1d95",
     accentColor: "#6d28d9",
+    heroImage: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Swedish Massage", description: "Classic relaxation massage to melt stress and tension", price: "From $85/hr" },
       { name: "Deep Tissue", description: "Targeted pressure for chronic pain and muscle recovery", price: "From $95/hr" },
@@ -981,6 +1004,7 @@ export const businesses: Business[] = [
     hours: "Tue–Sat 9am–6pm",
     heroColor: "#9d174d",
     accentColor: "#be185d",
+    heroImage: "https://images.unsplash.com/photo-1562322140-8baeababf23b?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Haircut & Blowout", description: "Precision cuts and professional styling", price: "From $65" },
       { name: "Color & Balayage", description: "Full color, highlights, balayage, and toning", price: "From $110" },
@@ -1007,6 +1031,7 @@ export const businesses: Business[] = [
     hours: "Mon–Sun 7am–8pm",
     heroColor: "#065f46",
     accentColor: "#059669",
+    heroImage: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Yoga Classes", description: "Hatha, vinyasa, restorative, and yin yoga for all levels", price: "From $18/class" },
       { name: "Movement & Dance", description: "Contemporary, somatic movement, and dance workshops", price: "From $20/class" },
@@ -1033,6 +1058,7 @@ export const businesses: Business[] = [
     hours: "Tue–Sat 10am–6pm",
     heroColor: "#831843",
     accentColor: "#9d174d",
+    heroImage: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Color Artistry", description: "Balayage, ombre, vivid color, and glossing treatments", price: "From $120" },
       { name: "Precision Haircut", description: "Tailored cuts for texture, face shape, and lifestyle", price: "From $65" },
@@ -1059,6 +1085,7 @@ export const businesses: Business[] = [
     hours: "Mon–Sat 9am–6pm",
     heroColor: "#374151",
     accentColor: "#4b5563",
+    heroImage: "https://images.unsplash.com/photo-1595499556365-9d36d35d8f16?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Haircuts", description: "Modern, tailored cuts for all hair types and lengths", price: "From $55" },
       { name: "Color & Highlights", description: "Single process, highlights, balayage, and toning", price: "From $95" },
@@ -1085,6 +1112,7 @@ export const businesses: Business[] = [
     hours: "Tue–Sat 9am–5pm",
     heroColor: "#b45309",
     accentColor: "#d97706",
+    heroImage: "https://images.unsplash.com/photo-1626015366606-c784e2f6d7e5?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Cuts & Trims", description: "Women's, men's, and kids' haircuts", price: "From $45" },
       { name: "Highlights & Lowlights", description: "Foil, balayage, and color correction", price: "From $95" },
@@ -1111,6 +1139,7 @@ export const businesses: Business[] = [
     hours: "Mon–Sat 9am–6pm",
     heroColor: "#0f172a",
     accentColor: "#1e293b",
+    heroImage: "https://images.unsplash.com/photo-1595476109649-db098eda2888?auto=format&fit=crop&w=1200&q=80",
     services: [
       { name: "Women's Cut & Style", description: "Precision cut with shampoo and professional blow-dry", price: "From $65" },
       { name: "Men's Haircut", description: "Classic and modern men's cuts with neck cleanup", price: "From $40" },
